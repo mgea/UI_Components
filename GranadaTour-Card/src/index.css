@@ -1,0 +1,451 @@
+
+/* Figma Styles of your File */
+:root {
+  /* Colors */
+  --walkingranadacom-alizarin-crimson: #eb2224;
+  --walkingranadacom-alizarin-crimson: #ea2323;
+  --walkingranadacom-amber: #f1bf00;
+  --walkingranadacom-black: #000000;
+  --walkingranadacom-black-10: rgba(0, 0, 0, 0.1);
+  --walkingranadacom-black-50: rgba(0, 0, 0, 0.5);
+  --walkingranadacom-blue-ribbon: #0039f0;
+  --walkingranadacom-boulder: #757575;
+  --walkingranadacom-buddha-gold: #c8b100;
+  --walkingranadacom-carissma: #ed72aa;
+  --walkingranadacom-chateau-green: #34a853;
+  --walkingranadacom-cinnabar: #db4446;
+  --walkingranadacom-corn: #f6bb06;
+  --walkingranadacom-cornflower-blue: #4285f4;
+  --walkingranadacom-crimson: #df1618;
+  --walkingranadacom-gallery: #f0f0f0;
+  --walkingranadacom-gallery: #eeeeee;
+  --walkingranadacom-grandis: #ffd691;
+  --walkingranadacom-mine-shaft: #222222;
+  --walkingranadacom-observatory: #058e6e;
+  --walkingranadacom-science-blue: #005bbf;
+  --walkingranadacom-scorpion: #5c5c5c;
+  --walkingranadacom-selective-yellow: #ffb300;
+  --walkingranadacom-selective-yellow: #ffb300;
+  --walkingranadacom-silver: #cccccc;
+  --walkingranadacom-tamarillo: #941617;
+  --walkingranadacom-tamarillo: #aa151b;
+  --walkingranadacom-tamarillo: #ad1519;
+  --walkingranadacom-valencia: #db4446;
+  --walkingranadacom-white: #ffffff;
+  --walkingranadacom-white-02: rgba(255, 255, 255, 0);
+  --walkingranadacom-white-74: rgba(255, 255, 255, 0.74);
+
+  /* Fonts */
+  --walkingranadacom-semantic-heading-2-font-family: Outfit-Bold, sans-serif;
+  --walkingranadacom-semantic-heading-2-font-size: 35px;
+  --walkingranadacom-semantic-heading-2-line-height: 42px;
+  --walkingranadacom-semantic-heading-2-font-weight: 700;
+  --walkingranadacom-semantic-heading-2-font-style: normal;
+  --walkingranadacom-semantic-heading-1-upper-font-family: Outfit-Light,
+    sans-serif;
+  --walkingranadacom-semantic-heading-1-upper-font-size: 20px;
+  --walkingranadacom-semantic-heading-1-upper-line-height: 24px;
+  --walkingranadacom-semantic-heading-1-upper-font-weight: 300;
+  --walkingranadacom-semantic-heading-1-upper-font-style: normal;
+  --walkingranadacom-semantic-heading-2-font-family: Outfit-Bold, sans-serif;
+  --walkingranadacom-semantic-heading-2-font-size: 50px;
+  --walkingranadacom-semantic-heading-2-line-height: 60px;
+  --walkingranadacom-semantic-heading-2-font-weight: 700;
+  --walkingranadacom-semantic-heading-2-font-style: normal;
+  --walkingranadacom-semantic-heading-2-upper-font-family: Outfit-Bold,
+    sans-serif;
+  --walkingranadacom-semantic-heading-2-upper-font-size: 50px;
+  --walkingranadacom-semantic-heading-2-upper-line-height: 60px;
+  --walkingranadacom-semantic-heading-2-upper-font-weight: 700;
+  --walkingranadacom-semantic-heading-2-upper-font-style: normal;
+  --walkingranadacom-semantic-heading-2-upper-font-family: Outfit-Black,
+    sans-serif;
+  --walkingranadacom-semantic-heading-2-upper-font-size: 200px;
+  --walkingranadacom-semantic-heading-2-upper-line-height: 280px;
+  --walkingranadacom-semantic-heading-2-upper-font-weight: 900;
+  --walkingranadacom-semantic-heading-2-upper-font-style: normal;
+  --walkingranadacom-semantic-heading-3-font-family: Outfit-Bold, sans-serif;
+  --walkingranadacom-semantic-heading-3-font-size: 24px;
+  --walkingranadacom-semantic-heading-3-line-height: 32px;
+  --walkingranadacom-semantic-heading-3-font-weight: 700;
+  --walkingranadacom-semantic-heading-3-font-style: normal;
+  --walkingranadacom-semantic-heading-3-upper-font-family: Outfit-Bold,
+    sans-serif;
+  --walkingranadacom-semantic-heading-3-upper-font-size: 30px;
+  --walkingranadacom-semantic-heading-3-upper-line-height: 36px;
+  --walkingranadacom-semantic-heading-3-upper-font-weight: 700;
+  --walkingranadacom-semantic-heading-3-upper-font-style: normal;
+  --walkingranadacom-semantic-heading-5-font-family: Outfit-Regular, sans-serif;
+  --walkingranadacom-semantic-heading-5-font-size: 16px;
+  --walkingranadacom-semantic-heading-5-line-height: 24px;
+  --walkingranadacom-semantic-heading-5-font-weight: 400;
+  --walkingranadacom-semantic-heading-5-font-style: normal;
+  --walkingranadacom-semantic-heading-5-underline-font-family: Outfit-Regular,
+    sans-serif;
+  --walkingranadacom-semantic-heading-5-underline-font-size: 16px;
+  --walkingranadacom-semantic-heading-5-underline-line-height: 24px;
+  --walkingranadacom-semantic-heading-5-underline-font-weight: 400;
+  --walkingranadacom-semantic-heading-5-underline-font-style: normal;
+  --walkingranadacom-semantic-input-font-family: Outfit-Regular, sans-serif;
+  --walkingranadacom-semantic-input-font-size: 20px;
+  --walkingranadacom-semantic-input-line-height: normal;
+  --walkingranadacom-semantic-input-font-weight: 400;
+  --walkingranadacom-semantic-input-font-style: normal;
+  --walkingranadacom-semantic-link-font-family: FontAwesome5Brands-Regular,
+    sans-serif;
+  --walkingranadacom-semantic-link-font-size: 20px;
+  --walkingranadacom-semantic-link-line-height: 20px;
+  --walkingranadacom-semantic-link-font-weight: 400;
+  --walkingranadacom-semantic-link-font-style: normal;
+  --walkingranadacom-semantic-link-font-family: FontAwesome5Free-Regular,
+    sans-serif;
+  --walkingranadacom-semantic-link-font-size: 20px;
+  --walkingranadacom-semantic-link-line-height: 20px;
+  --walkingranadacom-semantic-link-font-weight: 400;
+  --walkingranadacom-semantic-link-font-style: normal;
+  --walkingranadacom-semantic-link-font-family: FontAwesome5Free-Solid,
+    sans-serif;
+  --walkingranadacom-semantic-link-font-size: 20px;
+  --walkingranadacom-semantic-link-line-height: 20px;
+  --walkingranadacom-semantic-link-font-weight: 400;
+  --walkingranadacom-semantic-link-font-style: normal;
+  --walkingranadacom-semantic-link-font-family: Outfit-Regular, sans-serif;
+  --walkingranadacom-semantic-link-font-size: 16px;
+  --walkingranadacom-semantic-link-line-height: 24px;
+  --walkingranadacom-semantic-link-font-weight: 400;
+  --walkingranadacom-semantic-link-font-style: normal;
+  --walkingranadacom-semantic-link-font-family: Outfit-Regular, sans-serif;
+  --walkingranadacom-semantic-link-font-size: 18px;
+  --walkingranadacom-semantic-link-line-height: 27px;
+  --walkingranadacom-semantic-link-font-weight: 400;
+  --walkingranadacom-semantic-link-font-style: normal;
+  --walkingranadacom-semantic-link-font-family: Outfit-Regular, sans-serif;
+  --walkingranadacom-semantic-link-font-size: 18px;
+  --walkingranadacom-semantic-link-line-height: 18px;
+  --walkingranadacom-semantic-link-font-weight: 400;
+  --walkingranadacom-semantic-link-font-style: normal;
+  --walkingranadacom-semantic-link-font-family: Outfit-Bold, sans-serif;
+  --walkingranadacom-semantic-link-font-size: 18px;
+  --walkingranadacom-semantic-link-line-height: 18px;
+  --walkingranadacom-semantic-link-font-weight: 700;
+  --walkingranadacom-semantic-link-font-style: normal;
+  --walkingranadacom-semantic-link-font-family: Outfit-Regular, sans-serif;
+  --walkingranadacom-semantic-link-font-size: 20px;
+  --walkingranadacom-semantic-link-line-height: 25px;
+  --walkingranadacom-semantic-link-font-weight: 400;
+  --walkingranadacom-semantic-link-font-style: normal;
+  --walkingranadacom-semantic-link-font-family: Outfit-Regular, sans-serif;
+  --walkingranadacom-semantic-link-font-size: 20px;
+  --walkingranadacom-semantic-link-line-height: 18px;
+  --walkingranadacom-semantic-link-font-weight: 400;
+  --walkingranadacom-semantic-link-font-style: normal;
+  --walkingranadacom-semantic-link-underline-font-family: Outfit-Regular,
+    sans-serif;
+  --walkingranadacom-semantic-link-underline-font-size: 16px;
+  --walkingranadacom-semantic-link-underline-line-height: 24px;
+  --walkingranadacom-semantic-link-underline-font-weight: 400;
+  --walkingranadacom-semantic-link-underline-font-style: normal;
+  --walkingranadacom-semantic-strong-font-family: Poppins-SemiBold, sans-serif;
+  --walkingranadacom-semantic-strong-font-size: 14px;
+  --walkingranadacom-semantic-strong-line-height: 20px;
+  --walkingranadacom-semantic-strong-font-weight: 600;
+  --walkingranadacom-semantic-strong-font-style: normal;
+  --walkingranadacom-font-awesome-5-free-regular-font-family: FontAwesome5Free-Regular,
+    sans-serif;
+  --walkingranadacom-font-awesome-5-free-regular-font-size: 18px;
+  --walkingranadacom-font-awesome-5-free-regular-line-height: 18px;
+  --walkingranadacom-font-awesome-5-free-regular-font-weight: 400;
+  --walkingranadacom-font-awesome-5-free-regular-font-style: normal;
+  --walkingranadacom-font-awesome-5-free-regular-font-family: FontAwesome5Free-Regular,
+    sans-serif;
+  --walkingranadacom-font-awesome-5-free-regular-font-size: 100px;
+  --walkingranadacom-font-awesome-5-free-regular-line-height: 100px;
+  --walkingranadacom-font-awesome-5-free-regular-font-weight: 400;
+  --walkingranadacom-font-awesome-5-free-regular-font-style: normal;
+  --walkingranadacom-font-awesome-5-free-solid-font-family: FontAwesome5Free-Solid,
+    sans-serif;
+  --walkingranadacom-font-awesome-5-free-solid-font-size: 20px;
+  --walkingranadacom-font-awesome-5-free-solid-line-height: 20px;
+  --walkingranadacom-font-awesome-5-free-solid-font-weight: 400;
+  --walkingranadacom-font-awesome-5-free-solid-font-style: normal;
+  --walkingranadacom-inter-bold-font-family: Inter-Bold, sans-serif;
+  --walkingranadacom-inter-bold-font-size: 16.299999237060547px;
+  --walkingranadacom-inter-bold-line-height: 15px;
+  --walkingranadacom-inter-bold-font-weight: 700;
+  --walkingranadacom-inter-bold-font-style: normal;
+  --walkingranadacom-inter-regular-font-family: Inter-Regular, sans-serif;
+  --walkingranadacom-inter-regular-font-size: 30px;
+  --walkingranadacom-inter-regular-line-height: 45px;
+  --walkingranadacom-inter-regular-font-weight: 400;
+  --walkingranadacom-inter-regular-font-style: normal;
+  --walkingranadacom-inter-bold-font-family: Inter-Bold, sans-serif;
+  --walkingranadacom-inter-bold-font-size: 15.800000190734863px;
+  --walkingranadacom-inter-bold-line-height: 15px;
+  --walkingranadacom-inter-bold-font-weight: 700;
+  --walkingranadacom-inter-bold-font-style: normal;
+  --walkingranadacom-outfit-bold-font-family: Outfit-Bold, sans-serif;
+  --walkingranadacom-outfit-bold-font-size: 30px;
+  --walkingranadacom-outfit-bold-line-height: 45px;
+  --walkingranadacom-outfit-bold-font-weight: 700;
+  --walkingranadacom-outfit-bold-font-style: normal;
+  --walkingranadacom-outfit-bold-font-family: Outfit-Bold, sans-serif;
+  --walkingranadacom-outfit-bold-font-size: 30px;
+  --walkingranadacom-outfit-bold-line-height: 30px;
+  --walkingranadacom-outfit-bold-font-weight: 700;
+  --walkingranadacom-outfit-bold-font-style: normal;
+  --walkingranadacom-outfit-bold-font-family: Outfit-Bold, sans-serif;
+  --walkingranadacom-outfit-bold-font-size: 32px;
+  --walkingranadacom-outfit-bold-line-height: 36px;
+  --walkingranadacom-outfit-bold-font-weight: 700;
+  --walkingranadacom-outfit-bold-font-style: normal;
+  --walkingranadacom-outfit-bold-font-family: Outfit-Bold, sans-serif;
+  --walkingranadacom-outfit-bold-font-size: 32px;
+  --walkingranadacom-outfit-bold-line-height: 48px;
+  --walkingranadacom-outfit-bold-font-weight: 700;
+  --walkingranadacom-outfit-bold-font-style: normal;
+  --walkingranadacom-outfit-bold-font-family: Outfit-Bold, sans-serif;
+  --walkingranadacom-outfit-bold-font-size: 35px;
+  --walkingranadacom-outfit-bold-line-height: 44px;
+  --walkingranadacom-outfit-bold-font-weight: 700;
+  --walkingranadacom-outfit-bold-font-style: normal;
+  --walkingranadacom-outfit-bold-font-family: Outfit-Bold, sans-serif;
+  --walkingranadacom-outfit-bold-font-size: 50px;
+  --walkingranadacom-outfit-bold-line-height: 75px;
+  --walkingranadacom-outfit-bold-font-weight: 700;
+  --walkingranadacom-outfit-bold-font-style: normal;
+  --walkingranadacom-outfit-bold-upper-font-family: Outfit-Bold, sans-serif;
+  --walkingranadacom-outfit-bold-upper-font-size: 70px;
+  --walkingranadacom-outfit-bold-upper-line-height: 77px;
+  --walkingranadacom-outfit-bold-upper-font-weight: 700;
+  --walkingranadacom-outfit-bold-upper-font-style: normal;
+  --walkingranadacom-outfit-light-font-family: Outfit-Light, sans-serif;
+  --walkingranadacom-outfit-light-font-size: 15px;
+  --walkingranadacom-outfit-light-line-height: 22.5px;
+  --walkingranadacom-outfit-light-font-weight: 300;
+  --walkingranadacom-outfit-light-font-style: normal;
+  --walkingranadacom-outfit-light-font-family: Outfit-Light, sans-serif;
+  --walkingranadacom-outfit-light-font-size: 18px;
+  --walkingranadacom-outfit-light-line-height: 32px;
+  --walkingranadacom-outfit-light-font-weight: 300;
+  --walkingranadacom-outfit-light-font-style: normal;
+  --walkingranadacom-outfit-light-font-family: Outfit-Light, sans-serif;
+  --walkingranadacom-outfit-light-font-size: 20px;
+  --walkingranadacom-outfit-light-line-height: 30px;
+  --walkingranadacom-outfit-light-font-weight: 300;
+  --walkingranadacom-outfit-light-font-style: normal;
+  --walkingranadacom-outfit-light-underline-font-family: Outfit-Light,
+    sans-serif;
+  --walkingranadacom-outfit-light-underline-font-size: 15px;
+  --walkingranadacom-outfit-light-underline-line-height: 22.5px;
+  --walkingranadacom-outfit-light-underline-font-weight: 300;
+  --walkingranadacom-outfit-light-underline-font-style: normal;
+  --walkingranadacom-outfit-regular-font-family: Outfit-Regular, sans-serif;
+  --walkingranadacom-outfit-regular-font-size: 20px;
+  --walkingranadacom-outfit-regular-line-height: 30px;
+  --walkingranadacom-outfit-regular-font-weight: 400;
+  --walkingranadacom-outfit-regular-font-style: normal;
+  --walkingranadacom-outfit-regular-font-family: Outfit-Regular, sans-serif;
+  --walkingranadacom-outfit-regular-font-size: 20px;
+  --walkingranadacom-outfit-regular-line-height: 18px;
+  --walkingranadacom-outfit-regular-font-weight: 400;
+  --walkingranadacom-outfit-regular-font-style: normal;
+  --walkingranadacom-outfit-bold-font-family: Outfit-Bold, sans-serif;
+  --walkingranadacom-outfit-bold-font-size: 24px;
+  --walkingranadacom-outfit-bold-line-height: 36px;
+  --walkingranadacom-outfit-bold-font-weight: 700;
+  --walkingranadacom-outfit-bold-font-style: normal;
+  --walkingranadacom-outfit-bold-font-family: Outfit-Bold, sans-serif;
+  --walkingranadacom-outfit-bold-font-size: 25px;
+  --walkingranadacom-outfit-bold-line-height: 37.5px;
+  --walkingranadacom-outfit-bold-font-weight: 700;
+  --walkingranadacom-outfit-bold-font-style: normal;
+
+  /* Effects */
+}
+/* Figma Color Variables of your File */
+:root,
+[data-walkingranadacom-mode="mode-1"] {
+  /* mode-1 */
+  --color-white-solid: #ffffff;
+  --color-white-02: rgba(255, 255, 255, 0);
+  --color-black-solid: #000000;
+  --color-grey-94: #f0f0f0;
+  --color-grey-46: #757575;
+  --color-red-53: #eb2224;
+  --color-grey-80: #cccccc;
+  --color-black-10: rgba(0, 0, 0, 0.1);
+  --color-grey-93: #eeeeee;
+  --color-grey-36: #5c5c5c;
+  --color-red-48: #df1618;
+  --color-yellow-49: #f6bb06;
+  --color-azure-61: #4285f4;
+  --color-red-56: #db4446;
+  --color-orange-50: #ffb300;
+  --color-spring-green-43: #34a853;
+  --color-black-50: rgba(0, 0, 0, 0.5);
+  --color-grey-13: #222222;
+  --color-red-33: #941617;
+  --color-white-74: rgba(255, 255, 255, 0.74);
+  --color-red-37: #aa151b;
+  --color-yellow-47: #f1bf00;
+  --color-red-38: #ad1519;
+  --color-yellow-39: #c8b100;
+  --color-cyan-29: #058e6e;
+  --color-azure-37: #005bbf;
+  --color-rose-69: #ed72aa;
+  --color-orange-78: #ffd691;
+  --color-blue-47: #0039f0;
+}
+
+
+
+
+/***** Tour card con AutoHTML *******/
+
+
+
+
+
+.tour-card,
+.tour-card * {
+  box-sizing: border-box;
+}
+.tour-card {
+  background: var(--color-white-02, rgba(255, 255, 255, 0));
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 21px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 305px;
+  height: 506px;
+  position: relative;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.15);
+}
+.card-image {
+  border-radius: var(--font-size-30, 30px) var(--font-size-30, 30px) 0px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 305px;
+  height: 190.28px;
+  position: relative;
+  overflow: hidden;
+  object-fit: cover;
+}
+.card-content {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 265px;
+  position: relative;
+}
+.titulo {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.heading-3-free-tours {
+  color: var(--walkingranadacom-alizarin-crimson, #ea2323);
+  text-align: left;
+  font-family: var(
+    --walkingranadacom-semantic-heading-3-font-family,
+    "Outfit-Bold",
+    sans-serif
+  );
+  font-size: var(--walkingranadacom-semantic-heading-3-font-size, 24px);
+  line-height: var(--walkingranadacom-semantic-heading-3-line-height, 32px);
+  font-weight: var(--walkingranadacom-semantic-heading-3-font-weight, 700);
+  position: relative;
+  flex: 1;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.separator {
+  background: var(--color-black-10, rgba(0, 0, 0, 0.1));
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 1px;
+  position: relative;
+  overflow: hidden;
+}
+.card-description {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.description {
+  color: var(--color-black-solid, #000000);
+  text-align: left;
+  font-family: var(
+    --walkingranadacom-outfit-light-font-family,
+    "Outfit-Light",
+    sans-serif
+  );
+  font-size: var(--walkingranadacom-outfit-light-font-size, 18px);
+  line-height: var(--walkingranadacom-outfit-light-line-height, 32px);
+  font-weight: var(--walkingranadacom-outfit-light-font-weight, 300);
+  position: relative;
+  flex: 1;
+  height: 87px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.card-action {
+  background: var(--walkingranadacom-alizarin-crimson, #ea2323);
+  border-radius: 70px;
+  padding: 20px 30px 20px 30px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.button {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.button-label {
+  color: var(--color-white-solid, #ffffff);
+  text-align: left;
+  font-family: var(
+    --walkingranadacom-semantic-link-font-family,
+    "Outfit-Regular",
+    sans-serif
+  );
+  font-size: var(--walkingranadacom-semantic-link-font-size, 20px);
+  line-height: var(--walkingranadacom-semantic-link-line-height, 25px);
+  font-weight: var(--walkingranadacom-semantic-link-font-weight, 400);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}

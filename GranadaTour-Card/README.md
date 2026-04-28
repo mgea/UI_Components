@@ -65,7 +65,7 @@ Ejemplo:
 
 Vamos a diseñar las UI Cards de la siguiente página: https://walkingranada.com/
 
-<img src="/Users/mgea/Documents/Docencia/DIU26/img/S13-React/UI_WalkingGranada Card.png" alt="UI_WalkingGranada Card" style="zoom:30%;" /> <img src="/Users/mgea/Documents/Docencia/DIU26/img/S13-React/UI_Card wireframe WalkingGranada.png" alt="UI_Card wireframe WalkingGranada" style="zoom:30%;" />
+<img src="../img/UI_WalkingGranada Card.png" alt="UI_WalkingGranada Card" style="zoom:30%;" /> <img src="/Users/mgea/Documents/Docencia/DIU26/img/S13-React/UI_Card wireframe WalkingGranada.png" alt="UI_Card wireframe WalkingGranada" style="zoom:30%;" />
 
 
 
@@ -285,7 +285,7 @@ Todos esos elementos de diseño se pueden convertir en **Design Tokens**, que so
 
 
 
-<img src="/Users/mgea/Documents/Docencia/DIU26/img/S13-React/design-tokens.png" alt="design-tokens" style="zoom:30%;" />
+<img src="../img/S13-React/design-tokens.png" alt="design-tokens" style="zoom:30%;" />
 
 
 
@@ -297,7 +297,7 @@ Todos esos elementos de diseño se pueden convertir en **Design Tokens**, que so
 
 Al seleccionar un elemento de diseño para <DEV mode>  , podemos usar las siguientes plugins/inspectores de código
 
-<img src="/Users/mgea/Documents/Docencia/DIU26/img/S13-React/plugins-toCode.png" alt="plugins-toCode" style="zoom:40%;" />
+<img src="../img/plugins-toCode.png" alt="plugins-toCode" style="zoom:40%;" />
 
 Los inspectores que podemos usar en <Dev Mode> son: 
 

@@ -1,7 +1,7 @@
 # UI_Components
 Componentes en React
 
-* **GranadaTour-Card** UI Card de WalkingGranada https://walkingranada.com/
+* **[GranadaTour-Card](GranadaTour-Card)** UI Card de WalkingGranada https://walkingranada.com/
 
 
 

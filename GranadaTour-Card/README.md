@@ -65,7 +65,9 @@ Ejemplo:
 
 Vamos a diseñar las UI Cards de la siguiente página: https://walkingranada.com/
 
-<img src="../img/UI_WalkingGranada Card.png" alt="UI_WalkingGranada Card" style="zoom:30%;" /> <img src="/Users/mgea/Documents/Docencia/DIU26/img/S13-React/UI_Card wireframe WalkingGranada.png" alt="UI_Card wireframe WalkingGranada" style="zoom:30%;" />
+<img src="../img/UI_WalkingGranada Card.png" alt="UI_WalkingGranada Card" style="zoom:30%;" /> <img src="../img/UI_Card wireframe WalkingGranada.png" alt="UI_Card wireframe WalkingGranada" style="zoom:30%;" />
+
+
 
 
 
